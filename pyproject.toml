@@ -4,6 +4,7 @@ version = "0.0.1"
 description = "A Network scanner made with python3"
 authors = [
     {name = "NuloCat",email = "nulocat@proton.me"},
+    {name = "Rickzinho3",email = "rickzinho3@proton.me"},
 ]
 license = {text = "MIT"}
 readme = "README.md"
