@@ -1,3 +1,7 @@
+# Ignore VSCODE editor settings
+.vscode/
+.vscode/*
+
 # Ignore poetry.lock file
 poetry.lock
 
