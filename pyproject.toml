@@ -3,7 +3,7 @@ name = "networkscanner"
 version = "0.0.1"
 description = "A Network scanner made with python3"
 authors = [
-    {name = "NuloCat",email = "nulocat@proton.me"}
+    {name = "NuloCat",email = "nulocat@proton.me"},
 ]
 license = {text = "MIT"}
 readme = "README.md"
@@ -13,7 +13,9 @@ dependencies = [
     "pylint (>=3.3.6,<4.0.0)"
 ]
 
-
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
